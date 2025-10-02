@@ -1,0 +1,22 @@
+# Entornos virtuales
+venv/
+.env
+
+# Archivos de configuración
+config/.env
+
+# Archivos temporales / cachés
+__pycache__/
+*.py[cod]
+*.log
+
+# Archivos de sistema
+.DS_Store
+
+# Reportes de pruebas
+*.xml
+*.html
+
+# Otros
+.idea/
+*.swp
