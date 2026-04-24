@@ -1,0 +1,4 @@
+behave
+appium-python-client
+selenium
+python-dotenv
