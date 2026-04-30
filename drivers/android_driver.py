@@ -13,7 +13,12 @@ def get_android_driver():
     options.platform_version = "14.0"
     options.device_name = "emulator-5554"
     options.automation_name = "UiAutomator2"
-    options.app = "/Users/jonathan.gr/Documents/App versions/Android/Testing/BAC.apk"
+
+    ## mac source
+    ##options.app = "/Users/jonathan.gr/Documents/App versions/Android/Testing/BAC.apk"
+
+    ##windows source
+    options.app = r"D:\Gael Docs\Practicando\python_mobile_bac\appk.apk"
 
     appium_server_url = os.getenv("APPIUM_SERVER_URL", "http://127.0.0.1:4723/wd/hub")
     return webdriver.Remote(appium_server_url, options=options)
